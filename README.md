@@ -1,4 +1,4 @@
-# DailyProgressReport
+# GoogleCloudReady DailyProgressReport
 GoogleCloud Daily Progress Report Template
 
 ## Important Links
