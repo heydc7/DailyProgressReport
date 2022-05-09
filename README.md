@@ -1,6 +1,10 @@
 # GoogleCloudReady DailyProgressReport
 GoogleCloud Daily Progress Report Template
 
+# Screenshot
+![gcr-screenshot](https://user-images.githubusercontent.com/39642060/167449160-95f69c48-2a51-4b85-9255-ae90fce63f20.png)
+
+
 ## Important Links
 [Streamlit Documentation](https://docs.streamlit.io/en/stable/)
 
