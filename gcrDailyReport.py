@@ -1,16 +1,16 @@
 import streamlit as st
 from PIL import Image
 import pandas as pd
-import plotly.graph_objects as go
+from plotly import graph_objs as go
 
 #Variable Names
-date = "12-06"
+date = "09-05" # SET Date as Name - "DD-MM" to the CSV file
 
 #Program Variables
-header = st.beta_container()
-login = st.beta_container()
-body = st.beta_container()
-owners = st.beta_container()
+header = st.container()
+login = st.container()
+body = st.container()
+owners = st.container()
 
 #Reading the file
 data = pd.read_csv("data/" + date + ".csv")
@@ -149,7 +149,7 @@ if (sidebarContent == "Progress Report"):
 
             st.write("**Enrollment Status:** " + str(df["Enrolment Status"][tindex]))
             st.write("**EmailID:** " + str(df["Student Email"][tindex]))
-            st.write("[View Qwiklabs Profile URL](" + str(df["Qwiklabs Profile URL"][tindex]) + ")")
+            st.write("[View Qwiklabs Profile URL](" + str(df["Google Cloud Skills Boost Profile URL"][tindex]) + ")")
             st.write("**Institution:** " + str(df["Institution"][tindex]))
 
             st.markdown("<hr>", unsafe_allow_html=True)
@@ -199,7 +199,7 @@ if (sidebarContent == "Progress Report"):
 
     with(owners):
         st.write("####")
-        st.markdown('<body class= "last" >Developed & Managed By: <a href="https://www.linkedin.com/in/kshitij-sangar/">Kshitij Sangar</a> & <a href="https://www.linkedin.com/in/dhanrajdc7/">Dhanraj Chavan</a></body>', unsafe_allow_html=True)
+        st.markdown('<body class= "last" >Managed By: <a href="https://www.linkedin.com/in/samruddhi-joshi-12166819a/">Samruddhi Joshi</a> & <a href="https://www.linkedin.com/in/abhinay-sahare-a21900195/">Abhinay Sahare</a>  |  Developed By: <a href="https://www.linkedin.com/in/dhanrajdc7/">Dhanraj Chavan</a> & <a href="https://www.linkedin.com/in/kshitij-sangar/">Kshitij Sangar</a></body>', unsafe_allow_html=True)
         #st.write("Developed & Managed By : Kshitij Sangar & Dhanraj Chavan")
 
 #Milestone Leaderboard Page
@@ -216,7 +216,7 @@ elif (sidebarContent == "Milestone Leaderboard"):
 
     status = False
 
-    if textInput == "infytracer@gmail.com":
+    if textInput == "dhanraj@duck.com":
         ml0, ml1, ml2, ml3, ml4, questTotal, skillbgTotal, inactiveCount = showStats()
 
         labels = ['Milestone0', 'Milestone1', 'Milestone2', 'Milestone3', 'Milestone4', 'Inactive']
@@ -244,11 +244,11 @@ elif (sidebarContent == "Milestone Leaderboard"):
         if( i == textInput):
             status = True
     if(textInput != "" and status):
-        m4 = st.beta_container()
-        m3 = st.beta_container()
-        m2 = st.beta_container()
-        m1 = st.beta_container()
-        cred = st.beta_container()
+        m4 = st.container()
+        m3 = st.container()
+        m2 = st.container()
+        m1 = st.container()
+        cred = st.container()
 
         df["level"] = 0
         for i in range(len(df)):
