@@ -4,6 +4,18 @@ GoogleCloud Daily Progress Report Template
 # Screenshot
 ![gcr-screenshot](https://user-images.githubusercontent.com/39642060/167449160-95f69c48-2a51-4b85-9255-ae90fce63f20.png)
 
+# Progress Report
+![progress-report](https://user-images.githubusercontent.com/39642060/167451307-3d306904-44b7-427c-9023-5cf00223ec58.png)
+
+# Milestone Leaderboard
+![milestone-leaderboard](https://user-images.githubusercontent.com/39642060/167451436-78d3c56f-b40a-4a6c-baca-c552fd67c57c.png)
+
+# Generate Badge
+![gcr-badge](https://user-images.githubusercontent.com/39642060/167451563-ad22fe92-d646-4c6b-91db-d0cf57346e09.png)
+
+# Admin Panel
+![gcr-stats](https://user-images.githubusercontent.com/39642060/167451682-e9d204cc-56dd-4f82-a31d-a643c7839482.png)
+
 
 ## Important Links
 [Streamlit Documentation](https://docs.streamlit.io/en/stable/)
