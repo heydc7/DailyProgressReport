@@ -32,4 +32,6 @@ WebApp will be live on your hosted address. You can update your data daily & pus
 [Streamlit Documentation](https://docs.streamlit.io/en/stable/)
 
 ## Support
-If you like this repo, please give this repo a Star ⭐️ & Follow me on GitHub [@dhanrajdc7](https://github.com/dhanrajdc7) to stay updated.
+If you like this repo, please give this repo a Star ⭐️ & Follow me on GitHub [@dhanrajdc7](https://github.com/dhanrajdc7) to stay updated. 
+
+**Thank you![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=gcr-dashboard)**
