@@ -34,4 +34,6 @@ WebApp will be live on your hosted address. You can update your data daily & pus
 ## Support
 If you like this repo, please give this repo a Star ⭐️ & Follow me on GitHub [@dhanrajdc7](https://github.com/dhanrajdc7) to stay updated. 
 
+<a href="https://www.buymeacoffee.com/codingpotter"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=codingpotter&button_colour=5F7FFF&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00"></a>
+
 ## ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=gcr-dashboard)
